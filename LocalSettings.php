@@ -30,7 +30,7 @@ $wgScriptPath = "/wiki";
 $wgScriptExtension = ".php";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://127.0.0.1";
+$wgServer = "http://186.42.173.18";
 
 ## The relative URL path to the skins directory
 $wgStylePath = "$wgScriptPath/skins";
@@ -53,10 +53,10 @@ $wgEmailAuthentication = true;
 
 ## Database settings
 $wgDBtype = "mysql";
-$wgDBserver = "192.168.1.8";
+$wgDBserver = "localhost";
 $wgDBname = "wiki";
 $wgDBuser = "root";
-$wgDBpassword = "0112358";
+$wgDBpassword = "Admin002";
 
 # MySQL specific settings
 $wgDBprefix = "";
